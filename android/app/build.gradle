@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.sampleasyncstorage"
+        applicationId "com.varam"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -116,6 +116,9 @@ android {
                 storePassword MYAPP_UPLOAD_STORE_PASSWORD
                 keyAlias MYAPP_UPLOAD_KEY_ALIAS
                 keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+                v1SigningEnabled true
+                v2SigningEnabled true
+
             }
         }
     }

@@ -70,6 +70,22 @@ import {
 } from "./NetworkUtils";
 import SplashScreen from "./SplashScreen";
 
+// const AppNavigator = createStackNavigator({...});
+// const persistenceKey = "persistenceKey"
+// const persistNavigationState = async (navState) => {
+//   try {
+//     await AsyncStorage.setItem(persistenceKey, JSON.stringify(navState))
+//   } catch(err) {
+//     // handle the error according to your needs
+//   }
+// }
+// const loadNavigationState = async () => {
+//   const jsonString = await AsyncStorage.getItem(persistenceKey)
+//   return JSON.parse(jsonString)
+// }
+
+// const App = () => <AppNavigator persistNavigationState={persistNavigationState} loadNavigationState={loadNavigationState} />;
+
 class Varam extends React.Component {
   constructor(props) {
     super(props);
@@ -162,7 +178,7 @@ class Varam extends React.Component {
           startInLoadingState={true}
           geolocationEnabled={true}
           onLoadEnd={() => this._onLoadEnd()}
-          source={{ uri: "http://52.66.190.178/login-2" }}
+          source={{ uri: "https://www.google.com" }}
           ref={webView => {
             this.webView.ref = webView;
           }}
