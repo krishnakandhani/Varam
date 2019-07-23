@@ -34,10 +34,11 @@ class InternetConnection extends PureComponent {
       >
         <Image
           source={require("./resources/noconnection.png")}
-          style={{ width: 100, height: 100 }}
+          style={{ width: 200, height: 200 }}
         />
-        <Text
+        {/* <Text
           style={{
+            
             textAlign: "center",
             fontWeight: "400",
             color: "#000000",
@@ -53,7 +54,7 @@ class InternetConnection extends PureComponent {
           style={{ marginTop: 10 }}
         >
           Try again
-        </Button>
+        </Button> */}
       </View>
     );
   }

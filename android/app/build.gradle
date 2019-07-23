@@ -105,7 +105,7 @@ android {
         applicationId "com.varam"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 1
+        versionCode 3
         versionName "1.0"
         multiDexEnabled true
     }

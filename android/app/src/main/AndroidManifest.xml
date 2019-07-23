@@ -7,11 +7,11 @@
     <application
         android:name=".MainApplication"
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/varam"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/varam"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity

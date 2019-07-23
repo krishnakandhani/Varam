@@ -178,7 +178,7 @@ class Varam extends React.Component {
           startInLoadingState={true}
           geolocationEnabled={true}
           onLoadEnd={() => this._onLoadEnd()}
-          source={{ uri: "https://www.google.com" }}
+          source={{ uri: "https://varam.athivaradar.org/login-2" }}
           ref={webView => {
             this.webView.ref = webView;
           }}
